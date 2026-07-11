@@ -40,9 +40,10 @@ one folder per skill, a `SKILL.md` with `name` + a rich `description` (the
 description is what triggers it, so make it keyword-rich).
 
 - [x] `_template/` — starter to copy for every new skill
-- [ ] First real skill — TBD with Shahar (candidate: a "voice/application"
-      skill for the job search, mirroring Charlie's `voice-builder`)
+- [x] **Job Search department** — `career-profile` (foundation) +
+      `resume-tailor`, `cover-letter`, `linkedin-optimizer`
 - [ ] Level up using `skill-creator` (best meta-skill in the set)
+- [ ] Next department — TBD
 
 ---
 

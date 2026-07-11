@@ -18,13 +18,23 @@ approach, but built lean: install what earns its keep, build the rest myself.
 
 ## My skills
 
-_None shipped yet — this is where my own library grows. See `PLAN.md`._
+### Job Search (a mini "department")
 
-<!-- As skills land, list them here:
+A foundation skill that learns your background once, and specialized skills that
+reuse it — the same pattern Charlie's social-media library uses.
+
 | Skill | What it does |
 |-------|-------------|
-| `voice`   | Learns how I write, so drafts sound like me |
--->
+| `career-profile` ⭐ | **Run first.** Learns your background from existing resumes + a short interview → writes `career-profile.md` + `achievements.md` |
+| `resume-tailor` | Tailors a resume to a specific job description; honest gap-check, no fabricated metrics |
+| `cover-letter` | Writes a targeted, voice-matched cover letter under 300 words |
+| `linkedin-optimizer` | Rewrites headline, About, and experience bullets for your target roles |
+
+```
+career-profile ──┬──▶ resume-tailor
+ (foundation)     ├──▶ cover-letter
+                  └──▶ linkedin-optimizer
+```
 
 ## Install a skill
 

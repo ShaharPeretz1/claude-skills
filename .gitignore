@@ -1,0 +1,7 @@
+# Cloned reference repos — kept locally for study, not part of your repo.
+# Each has its own git history; we don't want them nested in yours.
+external/
+
+# OS / editor noise
+.DS_Store
+*.swp

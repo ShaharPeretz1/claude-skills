@@ -42,7 +42,9 @@ description is what triggers it, so make it keyword-rich).
 - [x] `_template/` — starter to copy for every new skill
 - [x] **Job Search department** — `career-profile` (foundation) +
       `resume-tailor`, `cover-letter`, `linkedin-optimizer`
-- [ ] Level up using `skill-creator` (best meta-skill in the set)
+- [x] Level up using `skill-creator` principles — `resume-tailor` got a pushier
+      triggering description + progressive disclosure
+      (`references/ats-and-keywords.md`)
 - [ ] Next department — TBD
 
 ---

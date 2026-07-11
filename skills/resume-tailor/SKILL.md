@@ -4,9 +4,11 @@ description: >
   Produce a resume tailored to a specific job description, drawing from the
   user's career-profile.md and achievements.md. Reorders and rewrites bullets to
   mirror the job's language and priorities, surfaces the most relevant
-  experience first, and flags any hard requirements the user may not meet.
-  Trigger when the user says "tailor my resume", "resume for this job", "apply to
-  this role", or pastes a job description and asks for a resume. Requires
+  experience first, gets past ATS keyword filters, and flags any hard
+  requirement the user may not meet. Use this skill whenever the user is applying
+  to a job, pastes or links a job posting, or says "tailor my resume", "resume
+  for this job", "apply to this role", "customize my CV", "make my resume fit
+  this", or mentions an ATS — even if they don't say the word "resume". Requires
   career-profile.md — if it is missing, run the career-profile skill first.
 ---
 
@@ -16,6 +18,10 @@ description: >
 
 Read `career-profile.md` and `achievements.md` from the project root. If either
 is missing, tell the user to run the **career-profile** skill first, then stop.
+
+For the craft of ATS-safe formatting and keyword extraction, read
+`references/ats-and-keywords.md` before Step 4 — it has the rules that keep the
+resume machine-readable and the checklist for weaving keywords in truthfully.
 
 ## Step 2. Get the target job
 
